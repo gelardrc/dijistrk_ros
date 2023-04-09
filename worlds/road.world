@@ -1,0 +1,14 @@
+<sdf version='1.6'>
+  <world name='default'>
+    <road name="my_road">
+        <width>8</width>
+        <point>0 0 0</point>
+        <point>10 0 0</point>
+        <point>20 0 0</point>
+        <point>30 0 0</point>
+    </road>
+    <include>
+      <uri>model://alphalt_plane</uri>
+    </include>
+  </world>
+</sdf>
