@@ -8,7 +8,7 @@
   <arg name="debug" default="false"/>
   <arg name="world" default="$(find dijkstra_ros)/worlds/novo_lusca.world"/>
 
-  <arg name="robot" default="$(find youbot_description)/robots/youbot.urdf.xacro"/>
+  <!-- <arg name="robot" default="$(find youbot_description)/robots/youbot.urdf.xacro"/> -->
   <arg name="z" default="0"/>
   <arg name="y" default="0"/>
   <arg name="x" default="0"/>
