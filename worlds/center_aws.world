@@ -1503,7 +1503,7 @@
     </light>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>9.13537 -37.5893 19.5243 0 0.393794 1.67216</pose>
+        <pose frame=''>7.11057 -26.5922 30.4251 -0 0.717794 1.43216</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -1525,224 +1525,224 @@
     </spherical_coordinates>
     <state world_name='default'>
       <sim_time>139 534000000</sim_time>
-      <real_time>140 119620021</real_time>
-      <wall_time>1681039411 160227030</wall_time>
-      <iterations>139534</iterations>
+      <real_time>0 0</real_time>
+      <wall_time>1681808108 698994544</wall_time>
+      <iterations>0</iterations>
       <model name='aws_robomaker_warehouse_Bucket_01_020'>
-        <pose frame=''>0.433449 9.63171 0 0 0 -1.56316</pose>
+        <pose frame=''>7.43345 19.6317 0 0 0 -1.56316</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_Bucket_01::body'>
-          <pose frame=''>0.433449 9.63171 0 0 0 -1.56316</pose>
+          <pose frame=''>7.43345 19.6317 0 0 0 -1.56316</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='aws_robomaker_warehouse_Bucket_01_021'>
-        <pose frame=''>-1.8321 -6.3752 0 0 0 -1.56316</pose>
+        <pose frame=''>5.1679 3.6248 0 0 0 -1.56316</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_Bucket_01::body'>
-          <pose frame=''>-1.8321 -6.3752 0 0 0 -1.56316</pose>
+          <pose frame=''>5.1679 3.6248 0 0 0 -1.56316</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='aws_robomaker_warehouse_Bucket_01_022'>
-        <pose frame=''>0.433449 8.59 0 0 0 -1.56316</pose>
+        <pose frame=''>7.43345 18.59 0 0 0 -1.56316</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_Bucket_01::body'>
-          <pose frame=''>0.433449 8.59 0 0 0 -1.56316</pose>
+          <pose frame=''>7.43345 18.59 0 0 0 -1.56316</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='aws_robomaker_warehouse_ClutteringA_01_016'>
-        <pose frame=''>5.70814 8.61684 -0.017477 0 -0 0</pose>
+        <pose frame=''>12.7081 18.6168 -0.017477 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_ClutteringA_01::link'>
-          <pose frame=''>5.70814 8.61684 -0.017477 0 -0 0</pose>
+          <pose frame=''>12.7081 18.6168 -0.017477 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='aws_robomaker_warehouse_ClutteringA_01_017'>
-        <pose frame=''>3.40864 8.61684 -0.017477 0 -0 0</pose>
+        <pose frame=''>10.4086 18.6168 -0.017477 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_ClutteringA_01::link'>
-          <pose frame=''>3.40864 8.61684 -0.017477 0 -0 0</pose>
+          <pose frame=''>10.4086 18.6168 -0.017477 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='aws_robomaker_warehouse_ClutteringA_01_018'>
-        <pose frame=''>-1.49129 5.22243 -0.017477 0 0 -1.58319</pose>
+        <pose frame=''>5.50871 15.2224 -0.017477 0 0 -1.58319</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_ClutteringA_01::link'>
-          <pose frame=''>-1.49129 5.22243 -0.017477 0 0 -1.58319</pose>
+          <pose frame=''>5.50871 15.2224 -0.017477 0 0 -1.58319</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='aws_robomaker_warehouse_ClutteringC_01_027'>
-        <pose frame=''>3.32496 3.82245 -0.012064 0 -0 1.56387</pose>
+        <pose frame=''>10.325 13.8224 -0.012064 0 -0 1.56387</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_ClutteringC_01::link'>
-          <pose frame=''>3.32496 3.82245 -0.012064 0 -0 1.56387</pose>
+          <pose frame=''>10.325 13.8224 -0.012064 0 -0 1.56387</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='aws_robomaker_warehouse_ClutteringC_01_028'>
-        <pose frame=''>5.54171 3.81648 -0.015663 0 0 -1.58319</pose>
+        <pose frame=''>12.5417 13.8165 -0.015663 0 0 -1.58319</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_ClutteringC_01::link'>
-          <pose frame=''>5.54171 3.81648 -0.015663 0 0 -1.58319</pose>
+          <pose frame=''>12.5417 13.8165 -0.015663 0 0 -1.58319</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='aws_robomaker_warehouse_ClutteringC_01_029'>
-        <pose frame=''>5.38424 6.13715 0 0 -0 -3.13319</pose>
+        <pose frame=''>12.3842 16.1371 0 0 0 -3.13319</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_ClutteringC_01::link'>
-          <pose frame=''>5.38424 6.13715 0 0 -0 -3.13319</pose>
+          <pose frame=''>12.3842 16.1371 0 0 0 -3.13319</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='aws_robomaker_warehouse_ClutteringC_01_030'>
-        <pose frame=''>3.236 6.13715 0 0 -0 -3.13319</pose>
+        <pose frame=''>10.236 16.1371 0 0 0 -3.13319</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_ClutteringC_01::link'>
-          <pose frame=''>3.236 6.13715 0 0 -0 -3.13319</pose>
+          <pose frame=''>10.236 16.1371 0 0 0 -3.13319</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='aws_robomaker_warehouse_ClutteringC_01_031'>
-        <pose frame=''>-1.57368 2.30199 -0.015663 0 0 -3.13319</pose>
+        <pose frame=''>5.42632 12.302 -0.015663 0 0 -3.13319</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_ClutteringC_01::link'>
-          <pose frame=''>-1.57368 2.30199 -0.015663 0 0 -3.13319</pose>
+          <pose frame=''>5.42632 12.302 -0.015663 0 0 -3.13319</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='aws_robomaker_warehouse_ClutteringC_01_032'>
-        <pose frame=''>-1.2196 9.407 -0.015663 0 -0 1.56387</pose>
+        <pose frame=''>5.7804 19.407 -0.015663 0 -0 1.56387</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_ClutteringC_01::link'>
-          <pose frame=''>-1.2196 9.407 -0.015663 0 -0 1.56387</pose>
+          <pose frame=''>5.7804 19.407 -0.015663 0 -0 1.56387</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='aws_robomaker_warehouse_ClutteringD_01_005'>
-        <pose frame=''>-1.63468 -7.81181 -0.319559 0 -0 0</pose>
+        <pose frame=''>5.36532 2.18819 -0.319559 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_ClutteringD_01::link'>
-          <pose frame=''>-1.63468 -7.81181 -0.319559 0 -0 0</pose>
+          <pose frame=''>5.36532 2.18819 -0.319559 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='aws_robomaker_warehouse_GroundB_01_001'>
-        <pose frame=''>-0.105484 0.636009 -0.090092 0 -0 0</pose>
+        <pose frame=''>6.89452 10.636 -0.090092 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_GroundB_01::link'>
-          <pose frame=''>-0.105484 0.636009 -0.090092 0 -0 0</pose>
+          <pose frame=''>6.89452 10.636 -0.090092 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='aws_robomaker_warehouse_Lamp_01_005'>
-        <pose frame=''>0 0 -4 0 -0 0</pose>
+        <pose frame=''>7 10 -4 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_Lamp_01::link'>
-          <pose frame=''>0 0 -4 0 -0 0</pose>
+          <pose frame=''>7 10 -4 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='aws_robomaker_warehouse_PalletJackB_01_001'>
-        <pose frame=''>-0.276098 -9.48194 0.023266 0 -0 0</pose>
+        <pose frame=''>6.7239 0.51806 0.023266 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_PalletJackB_01::link'>
-          <pose frame=''>-0.276098 -9.48194 0.023266 0 -0 0</pose>
+          <pose frame=''>6.7239 0.51806 0.023266 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='aws_robomaker_warehouse_ShelfD_01_001'>
-        <pose frame=''>4.73156 -1.24267 0 0 -0 0</pose>
+        <pose frame=''>11.7316 8.75733 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_ShelfD_01::link'>
-          <pose frame=''>4.73156 -1.24267 0 0 -0 0</pose>
+          <pose frame=''>11.7316 8.75733 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='aws_robomaker_warehouse_ShelfD_01_002'>
-        <pose frame=''>4.73156 -3.03855 0 0 -0 0</pose>
+        <pose frame=''>11.7316 6.96145 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_ShelfD_01::link'>
-          <pose frame=''>4.73156 -3.03855 0 0 -0 0</pose>
+          <pose frame=''>11.7316 6.96145 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='aws_robomaker_warehouse_ShelfD_01_003'>
-        <pose frame=''>4.73156 -6.75054 0 0 -0 0</pose>
+        <pose frame=''>11.7316 3.24946 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_ShelfD_01::link'>
-          <pose frame=''>4.73156 -6.75054 0 0 -0 0</pose>
+          <pose frame=''>11.7316 3.24946 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='aws_robomaker_warehouse_ShelfE_01_001'>
-        <pose frame=''>4.73156 0.57943 0 0 -0 0</pose>
+        <pose frame=''>11.7316 10.5794 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_ShelfE_01::link'>
-          <pose frame=''>4.73156 0.57943 0 0 -0 0</pose>
+          <pose frame=''>11.7316 10.5794 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='aws_robomaker_warehouse_ShelfE_01_002'>
-        <pose frame=''>4.73156 -4.82705 0 0 -0 0</pose>
+        <pose frame=''>11.7316 5.17295 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_ShelfE_01::link'>
-          <pose frame=''>4.73156 -4.82705 0 0 -0 0</pose>
+          <pose frame=''>11.7316 5.17295 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='aws_robomaker_warehouse_ShelfE_01_003'>
-        <pose frame=''>4.73156 -8.6651 0 0 -0 0</pose>
+        <pose frame=''>11.7316 1.3349 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_ShelfE_01::link'>
-          <pose frame=''>4.73156 -8.6651 0 0 -0 0</pose>
+          <pose frame=''>11.7316 1.3349 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -1752,17 +1752,17 @@
         <pose frame=''>-5.79514 -0.956635 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_ShelfF_01::link'>
-          <pose frame=''>-5.79514 -0.956635 0 0 -0 0</pose>
+          <pose frame=''>1.20486 9.04336 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='aws_robomaker_warehouse_TrashCanC_01_002'>
-        <pose frame=''>-1.59244 7.71542 0 0 -0 0</pose>
+        <pose frame=''>5.40756 17.7154 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_warehouse_TrashCanC_01::link'>
-          <pose frame=''>-1.59244 7.71542 0 0 -0 0</pose>
+          <pose frame=''>5.40756 17.7154 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>

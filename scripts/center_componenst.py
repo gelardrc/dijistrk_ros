@@ -3,6 +3,7 @@
 import rospy
 import numpy as np
 import matplotlib
+import time 
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 
@@ -54,8 +55,30 @@ names = [   'aws_robomaker_warehouse_ShelfF_01_001',
             'aws_robomaker_warehouse_TrashCanC_01_002', 
             'aws_robomaker_warehouse_PalletJackB_01_001']
 
+def func(model):
+    t = get_model(model,'world')
+    new_pose = Pose()   
 
+    new_pose.position.x = t.pose.position.x + 7
+    new_pose.position.y = t.pose.position.y + 10
+    new_pose.position.z = t.pose.position.z
+
+    new_pose.orientation = t.pose.orientation
+
+    set_component(ModelState(
+            model_name =model,
+            pose = new_pose
+        ))   
+    
+    pass
 for i in names:
+    func(model=i)
+    time.sleep(3)
+
+## func(model="aws_robomaker_warehouse_ClutteringD_01_005")
+
+
+""" for i in names:
     print('model',i)
     t = get_model(i,'world')
     new_pose = Pose()   
@@ -70,9 +93,7 @@ for i in names:
             model_name = i,
             pose = new_pose
         ))   
+ """
 
 
-while not (rospy.is_shutdown):
-    
-    continue
 

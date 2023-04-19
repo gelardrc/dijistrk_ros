@@ -6,7 +6,7 @@
   <arg name="gui" default="true"/>
   <arg name="headless" default="false"/>
   <arg name="debug" default="false"/>
-  <arg name="world" default="$(find dijkstra_ros)/worlds/novo_lusca.world"/>
+  <arg name="world" default="$(find dijkstra_ros)/worlds/aws.world"/>
 
   <!-- <arg name="robot" default="$(find youbot_description)/robots/youbot.urdf.xacro"/> -->
   <arg name="z" default="0"/>

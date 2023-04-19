@@ -26,9 +26,17 @@ class world:
         
         self.models = []
         ## Insira aqui o nome dos modelos que voce quer considerar no mapa
-        names = ['box','box','box','box','box','box','box','box','box','box']
+        names = self.get_components().model_names
         ## insira aqui a gemotria de colisao
-        geometrys = [[1,2,3],
+        
+        ## Insira aqui o pose dos modelos
+        poses = []
+
+        for model in names:
+            poses.append(self.get_model(model,'world').pose.position)
+
+        ## nao descobri um jeito inteligente de fazer isso ......
+        collisions = [[1,2,3],
                      [1,2,3],
                      [1,2,3],
                      [1,2,3],
@@ -38,17 +46,6 @@ class world:
                      [1,2,3],
                      [1,2,3],
                      [1,2,3]]
-        ## Insira aqui o pose dos modelos
-        poses = [[1,2,3],
-                [1,2,3],
-                [1,2,3],
-                [1,2,3],
-                [1,2,3],
-                [1,2,3],
-                [1,2,3],
-                [1,2,3],
-                [1,2,3],
-                [1,2,3]]
         
         for index,model_name in enumerate(names):
             
@@ -65,7 +62,10 @@ class world:
         pass
     
     def init_ros_services(self):
-
+        
+        self.get_components = rospy.ServiceProxy('/gazebo/get_world_properties',GetWorldProperties)
+        self.set_component = rospy.ServiceProxy('/gazebo/set_model_state',SetModelState)
+        self.get_model = rospy.ServiceProxy('/gazebo/get_model_state',GetModelState)
 
         pass
 
