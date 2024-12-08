@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="start" default="[33, 38]"/>
+    <arg name="goal" default="[30, 20]"/>
+    <arg name="choose" default="false"/>
+    <node name="map_server" pkg="map_server" type="map_server" args="$(find dijkstra_ros)/map/example.yaml"/>
+    <node name="dijkstra_ros" pkg="dijkstra_ros" type="dijkstra_ros.py" output="screen">
+        <param name="start"  value="$(arg start)" />
+        <param name="goal"   value="$(arg goal)" />
+        <param name="choose" value="$(arg choose)" />
+
+    </node>
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find dijkstra_ros)/rviz/example.rviz" required="true"/>
+</launch>
