@@ -31,6 +31,9 @@ A package that implements dijstrik algorithm to find minimum path in occupancy g
 
 > roslaunch dijkstra_ros example.launch choose:="true"
 
+Now usgin rviz tou can send start and goal points like this : 
+
+![](https://github.com/gelardrc/dijkstra_ros/blob/main/img/dijstrik_ros.gif)
 
 
 
