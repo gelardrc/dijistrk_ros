@@ -31,25 +31,11 @@ A package that implements dijstrik algorithm to find minimum path in occupancy g
 
 > roslaunch dijkstra_ros example.launch choose:="true"
 
-# Project structure
 
-dijkstra_ros/
-├── CMakeLists.txt
-├── launch
-│   └── example.launch #example launch (map_ser + planner + rviz  )
-├── map # 2D already map examples
-│   ├── example.pgm
-│   └── example.yaml
-├── package.xml
-├── README.md
-├── rviz
-│   └── example.rviz # rviz config
-└── scripts
-└── dijkstra_ros.py # Main Path Planning Node
+
 
 # To do list
 
-* [ ] Rec gif implementation
-
+* [ ] Add inflation Raddius on map (working)
 
 
