@@ -11,6 +11,7 @@ A package that implements dijstrik algorithm to find minimum path in occupancy g
 2. Open another terminal and start map_server
 
 > cd <dijkstra_ros>/map
+> 
 > rosrun map_server map_server example.yaml
 
 3. Open another terminal
@@ -23,6 +24,7 @@ A package that implements dijstrik algorithm to find minimum path in occupancy g
 4. Finally open another terminal
 
 > cd <dijkstra_ros>/rviz
+> 
 > rosrun rviz rviz -d example.rviz
 
 5. (optional) If you set _choose parameter to true, click on 2D pose estimate pose to set start point and click on 2D nav goal to set goal point. You can change them whenever you want in order to recalculate path.
